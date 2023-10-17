@@ -1,6 +1,6 @@
 import "./style.scss";
 import { TypeAnimation } from "react-type-animation";
-import hero from "../../assets/img/hero.jpeg";
+import hero from "../../assets/img/Home-Image.png";
 function Hero() {
     return (
         <div className="hero">
