@@ -1,7 +1,6 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEnvelope, faTerminal } from "@fortawesome/free-solid-svg-icons";
 import Header from "./components/navbar/Header";
 import Hero from "./components/hero/Hero";
+import About from "./components/about/About";
 import "./assets/styles/main.scss";
 
 function App() {
@@ -10,6 +9,7 @@ function App() {
             <Header />
             <div className="container">
                 <Hero />
+                <About />
             </div>
         </div>
     );
