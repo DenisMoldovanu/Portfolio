@@ -1,0 +1,15 @@
+@import '../../assets/styles/colors.scss';
+.footer-section{
+	min-height: 50px;
+	background-color: $blueDark;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	padding: 0px 25px;
+
+	p{
+		color: $black;
+		font-size: 18px;
+		text-align: right;
+	}
+}

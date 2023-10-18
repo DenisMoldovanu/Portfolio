@@ -4,6 +4,7 @@ import About from "./components/about/About";
 import Services from "./components/services/Services";
 import Portfolio from "./components/portfolio/Portfolio";
 import Qualification from "./components/qualification/Qualification";
+import Footer from "./components/footer/Footer";
 import "./assets/styles/main.scss";
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
                 <Services />
                 <Portfolio />
             </div>
+            <Footer />
         </div>
     );
 }
