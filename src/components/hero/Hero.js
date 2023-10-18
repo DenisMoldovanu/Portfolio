@@ -1,9 +1,18 @@
 import "./style.scss";
 import { TypeAnimation } from "react-type-animation";
 import hero from "../../assets/img/Home-Image.png";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+    faSquareInstagram,
+    faLinkedin,
+    faGithub,
+} from "@fortawesome/free-brands-svg-icons";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+// import background from "../../assets/img/portfolio-1.png";
 function Hero() {
     return (
         <div className="hero">
+            {/* <img src={background} alt="" /> */}
             <div className="content">
                 <h2>Hi There!</h2>
                 <h1>
@@ -32,6 +41,42 @@ function Hero() {
                     Providing High-Impact Web Solutions For Many Different
                     Organizations.
                 </p>
+                <div className="contact-section">
+                    <h3>get in touch:</h3>
+                    <div class="contact-info">
+                        <div class="info-item">
+                            <div class="detail">
+                                <a href="">
+                                    <FontAwesomeIcon icon={faSquareInstagram} />
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="info-item">
+                            <div class="detail">
+                                <a href="">
+                                    <FontAwesomeIcon icon={faEnvelope} />
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="info-item">
+                            <div class="detail">
+                                <a href="">
+                                    <FontAwesomeIcon icon={faLinkedin} />
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="info-item">
+                            <div class="detail">
+                                <a href="">
+                                    <FontAwesomeIcon icon={faGithub} />
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div className="img-box">
                 <img src={hero} alt="Denis" />
