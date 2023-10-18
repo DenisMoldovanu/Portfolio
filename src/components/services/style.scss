@@ -1,0 +1,71 @@
+@import '../../assets/styles/colors.scss';
+
+.services-section{
+	padding: 0px 5%;
+	margin-bottom: 150px;
+
+	.heading{
+		margin-bottom: 50px;
+		h2{
+			font-size: 40px;
+			text-align: center;
+			color: $blueDark;
+			font-weight: 700;
+			margin-bottom: 25px;
+			span{
+				position: relative;
+				color: $white;
+				&::after{
+					content: '';
+					position: absolute;
+					bottom: -0.5rem;
+					left: 0;
+					z-index: -1;
+					background: $blueDark;
+					height: 0.2rem;
+					width: 100%;
+				}
+			}
+		}
+	}
+
+	.box-container{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-wrap: wrap;
+		gap: 15px;
+	}
+	.service-item{
+    flex: 1 1 330px;
+    background-color: $black;
+    padding: 40px 30px;
+    text-align: center;
+    border: 1px solid rgba(255,255, 255, 0.3);
+    border-radius: 5px;
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+    transition: all 0.5s linear;
+	&:hover{
+		background-color: $blueDark;
+		transition: all 0.5s linear;
+	}
+	svg{
+		width: 75px;
+		height: 65px;
+		margin-bottom: 15px;
+	}
+	h3{
+		font-weight: 700;
+		font-size: 22px;
+		margin-bottom: 20px;
+		height: 44px;
+	}
+	p{
+		color: $lightGrey;
+		font-size: 18px;
+		line-height: 1.2;
+	}
+	}
+}
