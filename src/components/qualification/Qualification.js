@@ -7,7 +7,7 @@ import {
 
 function Qualification() {
     return (
-        <div className="qualification-section">
+        <div className="qualification-section" id="qualification">
             <div class="heading">
                 <h2>
                     My <span>Qualification</span>

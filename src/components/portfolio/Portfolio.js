@@ -9,7 +9,7 @@ import portfolio5 from "../../assets/img/portfolio-5.png";
 import portfolio6 from "../../assets/img/portfolio-6.png";
 function Portfolio() {
     return (
-        <div className="portfolio-section">
+        <div className="portfolio-section" id="portfolio">
             <div class="heading">
                 <h2>
                     My <span>Portfolio</span>

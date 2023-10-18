@@ -8,11 +8,12 @@ import {
     faGithub,
 } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
-// import background from "../../assets/img/portfolio-1.png";
+import background from "../../assets/img/4.jpg";
+
 function Hero() {
     return (
-        <div className="hero">
-            {/* <img src={background} alt="" /> */}
+        <div className="hero" id="home">
+            <img className="testback" src={background} alt="" />
             <div className="content">
                 <h2>Hi There!</h2>
                 <h1>

@@ -11,10 +11,10 @@
 		.img-box{
 			max-width: 450px;
 			width: 100%;
-			border: 10px solid $blueDark;
 			img{
 				width: 100%;
 				object-fit: cover;
+				border-radius: 15px;
 			}
 		}
 		.content{

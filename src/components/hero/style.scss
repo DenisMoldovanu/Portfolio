@@ -7,7 +7,19 @@
     align-items: center;
     justify-content: space-between;
     gap: 4rem;
-    // background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.8);
+	position: relative;
+	margin-bottom: 50px;
+
+	.testback{
+		position: absolute;
+		object-fit: cover;
+		top: 0;
+		left: 0;
+		z-index: -1;
+		height: 100%;
+		width: 100%;
+	}
 
     .content {
         max-width: 700px;

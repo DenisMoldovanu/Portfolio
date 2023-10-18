@@ -4,7 +4,7 @@ import "./style.scss";
 import photo from "../../assets/img/photo2.jpeg";
 function About() {
     return (
-        <div className="about-section">
+        <div className="about-section" id="about">
             <div className="box-container">
                 <div className="img-box">
                     <img src={photo} alt="" />

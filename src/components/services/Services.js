@@ -12,7 +12,7 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 function Services() {
     return (
-        <div className="services-section">
+        <div className="services-section" id="services">
             <div class="heading">
                 <h2>
                     My <span>Services</span>
