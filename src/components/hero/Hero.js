@@ -44,33 +44,33 @@ function Hero() {
                 </p>
                 <div className="contact-section">
                     <h3>get in touch:</h3>
-                    <div class="contact-info">
-                        <div class="info-item">
-                            <div class="detail">
+                    <div className="contact-info">
+                        <div className="info-item">
+                            <div className="detail">
                                 <a href="">
                                     <FontAwesomeIcon icon={faSquareInstagram} />
                                 </a>
                             </div>
                         </div>
 
-                        <div class="info-item">
-                            <div class="detail">
+                        <div className="info-item">
+                            <div className="detail">
                                 <a href="">
                                     <FontAwesomeIcon icon={faEnvelope} />
                                 </a>
                             </div>
                         </div>
 
-                        <div class="info-item">
-                            <div class="detail">
+                        <div className="info-item">
+                            <div className="detail">
                                 <a href="">
                                     <FontAwesomeIcon icon={faLinkedin} />
                                 </a>
                             </div>
                         </div>
 
-                        <div class="info-item">
-                            <div class="detail">
+                        <div className="info-item">
+                            <div className="detail">
                                 <a href="">
                                     <FontAwesomeIcon icon={faGithub} />
                                 </a>

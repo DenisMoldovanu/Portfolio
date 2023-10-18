@@ -36,35 +36,35 @@ function About() {
                             <h4>
                                 Freelance: <span>Available</span>
                             </h4>
-                            <a href="#download" class="btn">
+                            <a href="#download" className="btn">
                                 Download CV{" "}
                                 <FontAwesomeIcon icon={faDownload} />
                             </a>
                         </div>
                         <div className="counting">
-                            <div class="box">
-                                <h1 class="count" data-count="4">
+                            <div className="box">
+                                <h1 className="count" data-count="4">
                                     4+
                                 </h1>
                                 <h3>Years Of Experience</h3>
                             </div>
 
-                            <div class="box">
-                                <h1 class="count" data-count="100">
+                            <div className="box">
+                                <h1 className="count" data-count="100">
                                     100+
                                 </h1>
                                 <h3>projects completed</h3>
                             </div>
 
-                            <div class="box">
-                                <h1 class="count" data-count="80">
+                            <div className="box">
+                                <h1 className="count" data-count="80">
                                     80+
                                 </h1>
                                 <h3>happy clients</h3>
                             </div>
 
-                            <div class="box">
-                                <h1 class="count" data-count="20">
+                            <div className="box">
+                                <h1 className="count" data-count="20">
                                     20+
                                 </h1>
                                 <h3>awards won</h3>
@@ -74,67 +74,67 @@ function About() {
                 </div>
             </div>
             <div className="skill-container">
-                <div class="heading">
+                <div className="heading">
                     <h2>
                         My <span>Skills</span>
                     </h2>
                 </div>
 
-                <div class="skills">
-                    <div class="skill-item item1">
-                        <div class="box">
+                <div className="skills">
+                    <div className="skill-item item1">
+                        <div className="box">
                             <h3>
                                 HTML5<span> 95% </span>{" "}
                             </h3>
-                            <div class="progress-bar">
+                            <div className="progress-bar">
                                 {" "}
                                 <span></span>{" "}
                             </div>
                         </div>
-                        <div class="box">
+                        <div className="box">
                             <h3>
                                 CSS3<span> 90% </span>{" "}
                             </h3>
-                            <div class="progress-bar">
+                            <div className="progress-bar">
                                 {" "}
                                 <span></span>{" "}
                             </div>
                         </div>
-                        <div class="box">
+                        <div className="box">
                             <h3>
                                 javascript<span> 85% </span>{" "}
                             </h3>
-                            <div class="progress-bar">
+                            <div className="progress-bar">
                                 {" "}
                                 <span></span>{" "}
                             </div>
                         </div>
                     </div>
 
-                    <div class="skill-item item2">
-                        <div class="box">
+                    <div className="skill-item item2">
+                        <div className="box">
                             <h3>
                                 JQuery<span> 75% </span>{" "}
                             </h3>
-                            <div class="progress-bar">
+                            <div className="progress-bar">
                                 {" "}
                                 <span></span>{" "}
                             </div>
                         </div>
-                        <div class="box">
+                        <div className="box">
                             <h3>
                                 Bootstrap<span> 65% </span>{" "}
                             </h3>
-                            <div class="progress-bar">
+                            <div className="progress-bar">
                                 {" "}
                                 <span></span>{" "}
                             </div>
                         </div>
-                        <div class="box">
+                        <div className="box">
                             <h3>
                                 PHP<span> 60% </span>{" "}
                             </h3>
-                            <div class="progress-bar">
+                            <div className="progress-bar">
                                 {" "}
                                 <span></span>{" "}
                             </div>
