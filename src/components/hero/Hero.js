@@ -22,7 +22,7 @@ function Hero() {
                         ]}
                         wrapper="span"
                         speed={40}
-                        style={{ fontSize: "1.5em", display: "inline-block" }}
+                        style={{ fontSize: "1em", display: "inline-block" }}
                         omitDeletionAnimation={true}
                         repeat={Infinity}
                     />
