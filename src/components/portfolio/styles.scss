@@ -40,6 +40,7 @@
                 display: inline-block;
                 padding: 10px 20px;
                 font-size: 18px;
+				text-transform: capitalize;
                 color: $blueDark;
                 background-color: transparent;
                 border: 2px solid $blueDark;
@@ -94,7 +95,7 @@
 						color: $white;
 					}
 					a{
-						color: $white;
+						color: $lightGrey;
 						text-decoration: none;
 						cursor: pointer;
 						svg{
