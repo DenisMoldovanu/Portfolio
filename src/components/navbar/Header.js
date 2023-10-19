@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./style.scss";
-import AnchorLink from "react-anchor-link-smooth-scroll";
+import { Nav, Navbar } from "react-bootstrap";
 function Header() {
     const [active, setActive] = useState(null);
 
@@ -40,22 +40,24 @@ function Header() {
         setActive(id);
     };
     return (
-        <div className="header">
-            <div className="logo">Denis</div>
-            <div className="navbar">
+        <Navbar collapseOnSelect expand="lg">
+            <Navbar.Brand href="#home">
+                <div className="logo">Denis</div>
+            </Navbar.Brand>
+            <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+            <Navbar.Collapse id="responsive-navbar-nav">
                 {navlink.map((item) => (
-                    <AnchorLink
+                    <Nav.Link
                         key={item.id}
                         href={item.navlink}
-                        offset="120"
                         className={item.id === active ? "active" : ""}
                         onClick={() => handleNavLinkClick(item.id)}
                     >
                         {item.navTitle}
-                    </AnchorLink>
+                    </Nav.Link>
                 ))}
-            </div>
-        </div>
+            </Navbar.Collapse>
+        </Navbar>
     );
 }
 

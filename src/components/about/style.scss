@@ -1,9 +1,9 @@
 @import '../../assets/styles/colors.scss';
 .about-section{
 	padding: 0px 5%;
-	margin-bottom: 150px;
+	padding-top: 100px;
 	@include respondto(maxLargeDesktop) {
-		margin-bottom: 100px;
+		padding-top: 50px;
 	}
 	.box-container{
 		margin-bottom: 150px;

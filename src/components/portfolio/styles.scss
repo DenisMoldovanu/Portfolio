@@ -2,9 +2,9 @@
 
 .portfolio-section {
 	padding: 0px 5%;
-	margin-bottom: 100px;
+	padding-top: 100px;
 	@include respondto(maxLargeDesktop) {
-		margin-bottom: 50px;
+		padding-top: 50px;
 	}
     .heading {
         margin-bottom: 50px;
