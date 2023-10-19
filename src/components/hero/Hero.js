@@ -13,7 +13,7 @@ import background from "../../assets/img/4.jpg";
 function Hero() {
     return (
         <div className="hero" id="home">
-            <img className="testback" src={background} alt="" />
+            <img className="imgbackground" src={background} alt="" />
             <div className="content">
                 <h2>Hi There!</h2>
                 <h1>

@@ -2,7 +2,10 @@
 
 .portfolio-section {
 	padding: 0px 5%;
-	margin-bottom: 150px;
+	margin-bottom: 100px;
+	@include respondto(maxLargeDesktop) {
+		margin-bottom: 50px;
+	}
     .heading {
         margin-bottom: 50px;
         h2 {
@@ -35,6 +38,9 @@
             flex-wrap: wrap;
             list-style-type: none;
             margin-top: 20px;
+			@include respondto(phone) {
+				justify-content: flex-start;
+			}
 
             .button {
                 display: inline-block;
@@ -63,6 +69,9 @@
 			grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
 			gap: 5px;
 			padding: 20px 0;
+			@include respondto(phone) {
+				gap: 10px;
+            }
 			
 			.portfolio-item{
 				border-radius: 5px;

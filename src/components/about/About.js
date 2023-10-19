@@ -8,6 +8,27 @@ function About() {
             <div className="box-container">
                 <div className="img-box">
                     <img src={photo} alt="" />
+                    <div className="info hidden-xm">
+                        <h4>
+                            Age: <span>29</span>
+                        </h4>
+                        <h4>
+                            Gender: <span>Male</span>
+                        </h4>
+                        <h4>
+                            Language:
+                            <span>Romanian, Russian, English</span>
+                        </h4>
+                        <h4>
+                            Work: <span>Front-End developer</span>
+                        </h4>
+                        <h4>
+                            Freelance: <span>Available</span>
+                        </h4>
+                        <a href="#download" className="btn">
+                            Download CV <FontAwesomeIcon icon={faDownload} />
+                        </a>
+                    </div>
                 </div>
                 <div className="content">
                     <h2>My Name Is Denis</h2>
@@ -19,7 +40,7 @@ function About() {
                         maiores, error magni accusamus officia.
                     </p>
                     <div className="about-info">
-                        <div className="info">
+                        <div className="info hidden-xd">
                             <h4>
                                 Age: <span>29</span>
                             </h4>

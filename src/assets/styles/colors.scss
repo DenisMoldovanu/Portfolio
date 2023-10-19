@@ -1,5 +1,45 @@
-$black:#000;
-$white:#fff;
-$blueDark:#0d47a1;
-$blueLight:#2196f3;
-$lightGrey:#dfdfde;
+$black: #000;
+$white: #fff;
+$blueDark: #0d47a1;
+$blueLight: #2196f3;
+$lightGrey: #dfdfde;
+
+//Breackpoints
+$breakpoints: (
+    fullHd: "(min-width: 1920px)",
+    xlDesktop: "(min-width: 992px) and (max-width: 1700px)",
+    largeDesktop: "(min-width: 1300px)",
+    maxLargeDesktop: "(max-width: 1299px)",
+    isLargeDesktop: "(min-width: 992px) and (max-width: 1299px)",
+    customDesktop: "(min-width: 1440px)",
+    desktop: "(min-width: 1200px) and (max-width: 1599px)",
+    desktopMedium: "(min-width: 1301px) and (max-width: 1450px)",
+    desktopSmall: "(min-width: 992px) and (max-width: 1199px)",
+    customDesktopAndTabletSmall: "(min-width: 768px) and (max-width: 1099px)",
+    onlyDesktop: "(min-width: 992px)",
+    desktopAndTablet: "(min-width: 768px)",
+    minWidth600: "(min-width: 600px)",
+    desktopSmallAndTablet: "(min-width: 768px) and (max-width: 1299px)",
+    maxTablet: "(max-width: 991px)",
+    tablet: "(min-width: 768px) and (max-width: 991px)",
+    phone: "(max-width: 767px)",
+    phoneXsToPhoneXs: "(min-width: 401px) and (max-width: 466px)",
+    phoneXl: "(max-width: 567px)",
+    phoneXs: "(max-width: 401px)",
+    iphone5: "(max-width: 370px)",
+    maxMobileMenu: "(max-width: 1090px)",
+    minDesktopMenu: "(min-width: 1091px)",
+    notMobileMenu: "(min-width: 768px) and (max-width: 1090px)",
+);
+/**
+ * Media Queries
+ */
+ @mixin respondto($device) {
+	@each $name, $point in $breakpoints {
+	  @if $name == $device {
+		@media #{$point} {
+		  @content;
+		}
+	  }
+	}
+  }

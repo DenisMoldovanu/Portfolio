@@ -8,30 +8,51 @@
     justify-content: space-between;
     gap: 4rem;
     background-color: rgba(0, 0, 0, 0.8);
-	position: relative;
-	margin-bottom: 50px;
+    position: relative;
+    margin-bottom: 50px;
+    @include respondto(maxLargeDesktop) {
+        flex-direction: column-reverse;
+        padding-top: 50px;
+        justify-content: flex-end;
+        min-height: 85vh;
+    }
 
-	.testback{
-		position: absolute;
-		object-fit: cover;
-		top: 0;
-		left: 0;
-		z-index: -1;
-		height: 100%;
-		width: 100%;
-	}
+    .imgbackground {
+        position: absolute;
+        object-fit: cover;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        height: 100%;
+        width: 100%;
+    }
 
     .content {
-        max-width: 700px;
+        flex: 1 1 650px;
+        @include respondto(maxLargeDesktop) {
+            flex: 0 1 250px;
+            width: 100%;
+        }
         h2 {
             color: $blueDark;
             font-size: 26px;
             margin-bottom: 15px;
+            @include respondto(phone) {
+                font-size: 22px;
+                margin-bottom: 5px;
+            }
         }
         h1 {
             font-size: 50px;
             margin-bottom: 15px;
             font-weight: 700;
+            @include respondto(maxLargeDesktop) {
+                font-size: 30px;
+            }
+            @include respondto(phone) {
+                font-size: 24px;
+                margin-bottom: 5px;
+            }
             span {
                 color: $blueDark;
                 margin-left: 10px;
@@ -41,6 +62,15 @@
             line-height: 1.5;
             color: $lightGrey;
             margin-bottom: 10px;
+            max-width: 600px;
+            @include respondto(maxLargeDesktop) {
+                max-width: 100%;
+            }
+            @include respondto(phone) {
+                font-size: 18px;
+                line-height: 1.2;
+                margin-bottom: 35px;
+            }
         }
     }
     .contact-section {
@@ -49,20 +79,32 @@
             font-weight: 700;
             text-transform: capitalize;
             margin-bottom: 10px;
-			color: $blueDark;
+            color: $blueDark;
+            @include respondto(phone) {
+                font-size: 22px;
+                text-align: center;
+                margin-bottom: 15px;
+            }
         }
         .contact-info {
             display: flex;
             align-items: center;
-			.info-item{
-				margin-right: 20px;
-			}
+            @include respondto(phone) {
+                justify-content: space-around;
+            }
+            .info-item {
+                margin-right: 20px;
+            }
             .detail {
                 a {
                     color: $white;
                     svg {
                         width: 25px;
                         height: 25px;
+                        @include respondto(phone) {
+                            width: 35px;
+                            height: 35px;
+                        }
                     }
                     &:hover {
                         color: $blueLight;
@@ -72,10 +114,12 @@
         }
     }
     .img-box {
-        width: 500px;
-        height: 500px;
+        flex: 1 1 400px;
         border-radius: 50%;
         overflow: hidden;
+        @include respondto(maxLargeDesktop) {
+            flex: unset;
+        }
         img {
             object-fit: cover;
             width: 100%;

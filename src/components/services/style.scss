@@ -3,6 +3,9 @@
 .services-section{
 	padding: 0px 5%;
 	margin-bottom: 150px;
+	@include respondto(maxLargeDesktop) {
+		margin-bottom: 100px;
+	}
 
 	.heading{
 		margin-bottom: 50px;
