@@ -18,7 +18,12 @@ function Header() {
     return (
         <Navbar collapseOnSelect expand="lg">
             <Navbar.Brand href="#home">
-                <div className="logo">Denis</div>
+                <div className="logo">
+                    <img
+                        src={require(`../../assets/img/logo_transparent.png`)}
+                        alt="Logo"
+                    />
+                </div>
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
