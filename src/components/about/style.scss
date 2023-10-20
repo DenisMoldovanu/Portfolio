@@ -67,6 +67,9 @@
 					@include respondto(maxLargeDesktop) {
 						max-width: 100%;
 					}
+					@include respondto(iphone5) {
+						grid-template-columns: 1fr;
+					}
 					.box{
 						max-width: 350px;
 						padding: 30px;
@@ -99,6 +102,9 @@
 				text-wrap: nowrap;
 				@include respondto(maxLargeDesktop) {
 					margin-bottom: 25px;
+				}
+				@include respondto(phone) {
+					text-wrap: pretty;
 				}
 				span{
 					display: inline-block;

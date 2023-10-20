@@ -43,7 +43,6 @@ function Hero() {
                     Organizations.
                 </p>
                 <div className="contact-section">
-                    <h3>get in touch:</h3>
                     <div className="contact-info">
                         <div className="info-item">
                             <div className="detail">
