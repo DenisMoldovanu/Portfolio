@@ -39,7 +39,11 @@ function About() {
                         <h4>
                             Freelance: <span>Available</span>
                         </h4>
-                        <a href="#download" className="btn">
+                        <a
+                            href={require("../../assets/img/CVMoldovanuDenis.pdf")}
+                            download="resume.pdf"
+                            className="btn"
+                        >
                             Download CV <FontAwesomeIcon icon={faDownload} />
                         </a>
                     </div>
@@ -71,7 +75,11 @@ function About() {
                             <h4>
                                 Freelance: <span>Available</span>
                             </h4>
-                            <a href="#download" className="btn">
+                            <a
+                                href={require("../../assets/img/CVMoldovanuDenis.pdf")}
+                                download="resume.pdf"
+                                className="btn"
+                            >
                                 Download CV{" "}
                                 <FontAwesomeIcon icon={faDownload} />
                             </a>
