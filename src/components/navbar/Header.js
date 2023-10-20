@@ -4,7 +4,7 @@ import { scroller } from "react-scroll";
 import { Nav, Navbar } from "react-bootstrap";
 function Header() {
     const [active, setActive] = useState(null);
-    const [scrollOffset, setScrollOffset] = useState(-160);
+    const [scrollOffset, setScrollOffset] = useState(-100);
 
     const navlink = [
         {
@@ -38,9 +38,6 @@ function Header() {
             navClicked: false,
         },
     ];
-    const handleNavLinkClick = (id) => {
-        setActive(id);
-    };
 
     useEffect(() => {
         // Check the screen width and set the appropriate scroll offset
@@ -63,14 +60,12 @@ function Header() {
                     <Nav.Link
                         key={item.id}
                         href={item.navlink}
-                        className={item.id === active ? "active" : ""}
                         onClick={() => {
                             scroller.scrollTo(item.navTitle, {
                                 smooth: true,
                                 offset: scrollOffset,
                                 duration: 500,
                             });
-                            handleNavLinkClick(item.id);
                         }}
                     >
                         {item.navTitle}
