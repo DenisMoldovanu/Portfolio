@@ -5,7 +5,7 @@ import "./style.scss";
 import photo from "../../assets/img/photo2.jpeg";
 function About() {
     const [birthdate] = useState(new Date("1994-08-20")); // Change this to the birthdate you want
-    const [currentYear, setCurrentYear] = useState(new Date().getFullYear());
+    const [currentYear] = useState(new Date().getFullYear());
     const [age, setAge] = useState(0);
 
     useEffect(() => {
@@ -57,7 +57,7 @@ function About() {
                     <div className="about-info">
                         <div className="info hidden-xd">
                             <h4>
-                                Age: <span>29</span>
+                                Age: <span>{age}</span>
                             </h4>
                             <h4>
                                 Gender: <span>Male</span>
