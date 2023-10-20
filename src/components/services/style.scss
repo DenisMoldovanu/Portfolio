@@ -2,9 +2,9 @@
 
 .services-section{
 	padding: 0px 5%;
-	padding-top: 150px;
+	margin-bottom: 150px;
 	@include respondto(maxLargeDesktop) {
-		padding-top: 100px;
+		margin-bottom: 100px;
 	}
 
 	.heading{
