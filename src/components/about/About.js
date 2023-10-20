@@ -1,8 +1,23 @@
+import React, { useEffect, useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faDownload } from "@fortawesome/free-solid-svg-icons";
 import "./style.scss";
 import photo from "../../assets/img/photo2.jpeg";
 function About() {
+    const [birthdate] = useState(new Date("1994-08-20")); // Change this to the birthdate you want
+    const [currentYear, setCurrentYear] = useState(new Date().getFullYear());
+    const [age, setAge] = useState(0);
+
+    useEffect(() => {
+        calculateAge();
+    }, []);
+
+    const calculateAge = () => {
+        const birthYear = birthdate.getFullYear();
+        const age = currentYear - birthYear;
+        setAge(age);
+    };
+
     return (
         <div className="about-section" id="about">
             <div className="box-container">
@@ -10,7 +25,7 @@ function About() {
                     <img src={photo} alt="" />
                     <div className="info hidden-xm">
                         <h4>
-                            Age: <span>29</span>
+                            Age: <span>{age}</span>
                         </h4>
                         <h4>
                             Gender: <span>Male</span>
