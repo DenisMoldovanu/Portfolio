@@ -10,7 +10,7 @@ import {
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import background from "../../assets/img/4.jpg";
 
-function Hero() {
+function Hero({ yearsOfExperience }) {
     return (
         <div className="hero" id="home">
             <img className="imgbackground" src={background} alt="" />
@@ -38,9 +38,9 @@ function Hero() {
                     />
                 </h1>
                 <p>
-                    Creative Web Developer Offering 4+ Years Of Experience
-                    Providing High-Impact Web Solutions For Many Different
-                    Organizations.
+                    Creative Developer Offering {yearsOfExperience}+ Years Of
+                    Experience Providing High-Impact Web Solutions For Many
+                    Different Organizations.
                 </p>
                 <div className="contact-section">
                     <div className="contact-info">

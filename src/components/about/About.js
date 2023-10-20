@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faDownload } from "@fortawesome/free-solid-svg-icons";
 import "./style.scss";
 import photo from "../../assets/img/photo2.jpeg";
-function About() {
+function About({ yearsOfExperience }) {
     const [birthdate] = useState(new Date("1994-08-20")); // Change this to the birthdate you want
     const [currentYear] = useState(new Date().getFullYear());
     const [age, setAge] = useState(0);
@@ -51,11 +51,14 @@ function About() {
                 <div className="content">
                     <h2>My Name Is Denis</h2>
                     <p>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing
-                        elit. Recusandae aut adipisci necessitatibus veniam,
-                        provident vero architecto praesentium, non sequi libero
-                        corrupti molestias. Architecto voluptate eligendi
-                        maiores, error magni accusamus officia.
+                        A dedicated professional with a background in Business
+                        Management and Administration, boasting{" "}
+                        {yearsOfExperience} years of expertise as a Front-End
+                        Developer. Proficient in the art of constructing and
+                        enhancing web pages, driven by a deep enthusiasm for
+                        transforming designs into captivating, user-friendly
+                        experiences. Eagerly searching for fresh prospects and
+                        demanding projects to further enhance my skill set.
                     </p>
                     <div className="about-info">
                         <div className="info hidden-xd">
@@ -87,21 +90,21 @@ function About() {
                         <div className="counting">
                             <div className="box">
                                 <h1 className="count" data-count="4">
-                                    4+
+                                    {yearsOfExperience}+
                                 </h1>
                                 <h3>Years Of Experience</h3>
                             </div>
 
                             <div className="box">
                                 <h1 className="count" data-count="100">
-                                    100+
+                                    30+
                                 </h1>
                                 <h3>projects completed</h3>
                             </div>
 
                             <div className="box">
                                 <h1 className="count" data-count="80">
-                                    80+
+                                    20+
                                 </h1>
                                 <h3>happy clients</h3>
                             </div>
@@ -157,7 +160,7 @@ function About() {
                     <div className="skill-item item2">
                         <div className="box">
                             <h3>
-                                JQuery<span> 75% </span>{" "}
+                                JQuery<span> 90% </span>{" "}
                             </h3>
                             <div className="progress-bar">
                                 {" "}
@@ -166,7 +169,7 @@ function About() {
                         </div>
                         <div className="box">
                             <h3>
-                                Bootstrap<span> 65% </span>{" "}
+                                Bootstrap<span> 80% </span>{" "}
                             </h3>
                             <div className="progress-bar">
                                 {" "}
@@ -175,7 +178,7 @@ function About() {
                         </div>
                         <div className="box">
                             <h3>
-                                PHP<span> 60% </span>{" "}
+                                React<span> 70% </span>{" "}
                             </h3>
                             <div className="progress-bar">
                                 {" "}
