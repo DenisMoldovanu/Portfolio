@@ -2,42 +2,9 @@ import React, { useState, useEffect } from "react";
 import "./style.scss";
 import { scroller } from "react-scroll";
 import { Nav, Navbar } from "react-bootstrap";
+import { navlink } from "../../helpers/utils";
 function Header() {
     const [scrollOffset, setScrollOffset] = useState(-100);
-
-    const navlink = [
-        {
-            id: 1,
-            navTitle: "home",
-            navlink: "#home",
-            navClicked: false,
-        },
-        {
-            id: 2,
-            navTitle: "about",
-            navlink: "#about",
-            navClicked: false,
-        },
-        {
-            id: 3,
-            navTitle: "qualification",
-            navlink: "#qualification",
-            navClicked: false,
-        },
-        {
-            id: 4,
-            navTitle: "services",
-            navlink: "#services",
-            navClicked: false,
-        },
-        {
-            id: 5,
-            navTitle: "portfolio",
-            navlink: "#portfolio",
-            navClicked: false,
-        },
-    ];
-
     useEffect(() => {
         // Check the screen width and set the appropriate scroll offset
         const isMobile = window.innerWidth <= 992;
