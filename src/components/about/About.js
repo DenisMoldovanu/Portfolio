@@ -9,14 +9,13 @@ function About() {
     const [age, setAge] = useState(0);
 
     useEffect(() => {
+        const calculateAge = () => {
+            const birthYear = birthdate.getFullYear();
+            const age = currentYear - birthYear;
+            setAge(age);
+        };
         calculateAge();
-    }, []);
-
-    const calculateAge = () => {
-        const birthYear = birthdate.getFullYear();
-        const age = currentYear - birthYear;
-        setAge(age);
-    };
+    }, [birthdate, currentYear]);
 
     return (
         <div className="about-section" id="about">

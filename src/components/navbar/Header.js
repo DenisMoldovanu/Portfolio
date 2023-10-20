@@ -3,7 +3,6 @@ import "./style.scss";
 import { scroller } from "react-scroll";
 import { Nav, Navbar } from "react-bootstrap";
 function Header() {
-    const [active, setActive] = useState(null);
     const [scrollOffset, setScrollOffset] = useState(-100);
 
     const navlink = [
@@ -64,7 +63,7 @@ function Header() {
                             scroller.scrollTo(item.navTitle, {
                                 smooth: true,
                                 offset: scrollOffset,
-                                duration: 500,
+                                duration: 50,
                             });
                         }}
                     >
