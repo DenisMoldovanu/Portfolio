@@ -46,10 +46,14 @@
     text-align: center;
     border: 1px solid rgba(255,255, 255, 0.3);
     border-radius: 5px;
+	height: 400px;
     -webkit-transition: all 0.5s linear;
     -moz-transition: all 0.5s linear;
     -o-transition: all 0.5s linear;
     transition: all 0.5s linear;
+	@include respondto(phone) {
+		height: auto;
+	}
 	&:hover{
 		background-color: $blueDark;
 		transition: all 0.5s linear;
@@ -64,6 +68,9 @@
 		font-size: 22px;
 		margin-bottom: 20px;
 		height: 44px;
+		@include respondto(phone) {
+			height: auto;
+		}
 	}
 	p{
 		color: $lightGrey;

@@ -27,10 +27,9 @@ function Qualification() {
                                 Elena Alistar Theoretical Lyceum of Arts
                             </h3>
                             <p>
-                                Lorem Ipsum Dolor Sit Amet Consectetur
-                                Adipisicing Elit. Vitae Vel Quasi Consectetur
-                                Expedita Ipsam Similique Maiores Ipsa? Error,
-                                Debitis Ullam.
+                                Successful completion of secondary education,
+                                signifying the acquisition of essential
+                                knowledge and skills.
                             </p>
                         </div>
                     </div>
@@ -46,10 +45,10 @@ function Qualification() {
                                 State University of Moldova
                             </h3>
                             <p>
-                                Lorem Ipsum Dolor Sit Amet Consectetur
-                                Adipisicing Elit. Vitae Vel Quasi Consectetur
-                                Expedita Ipsam Similique Maiores Ipsa? Error,
-                                Debitis Ullam.
+                                Students gain a strong foundation in business
+                                principles and administration practices,
+                                preparing them for diverse career opportunities
+                                in the dynamic world of business.
                             </p>
                         </div>
                     </div>
@@ -65,10 +64,12 @@ function Qualification() {
                                 Udemy
                             </h3>
                             <p>
-                                Lorem Ipsum Dolor Sit Amet Consectetur
-                                Adipisicing Elit. Vitae Vel Quasi Consectetur
-                                Expedita Ipsam Similique Maiores Ipsa? Error,
-                                Debitis Ullam.
+                                This Udemy course offers comprehensive training
+                                in web development, covering HTML, CSS,
+                                JavaScript, and more. Learn how to create
+                                dynamic, interactive websites and gain essential
+                                skills for a successful career in web
+                                development.
                             </p>
                         </div>
                     </div>
@@ -82,14 +83,14 @@ function Qualification() {
                         <div className="content">
                             <span>2020 - 2021</span>
                             <h3>
-                                Front-End Developer <br />
+                                Intership Front-End Developer <br />
                                 It System
                             </h3>
                             <p>
-                                Lorem Ipsum Dolor Sit Amet Consectetur
-                                Adipisicing Elit. Vitae Vel Quasi Consectetur
-                                Expedita Ipsam Similique Maiores Ipsa? Error,
-                                Debitis Ullam.
+                                As a front-end developer intern at IT System, I
+                                was thrilled to be part of a dynamic team
+                                working on cutting-edge web development
+                                projects.
                             </p>
                         </div>
                     </div>
@@ -105,10 +106,10 @@ function Qualification() {
                                 Upwork
                             </h3>
                             <p>
-                                Lorem Ipsum Dolor Sit Amet Consectetur
-                                Adipisicing Elit. Vitae Vel Quasi Consectetur
-                                Expedita Ipsam Similique Maiores Ipsa? Error,
-                                Debitis Ullam.
+                                I'm a freelance web developer on Upwork,
+                                passionate about crafting digital experiences.
+                                With a keen eye for design and expertise in
+                                HTML, CSS, and JavaScript.
                             </p>
                         </div>
                     </div>
@@ -124,10 +125,10 @@ function Qualification() {
                                 CreativSoft
                             </h3>
                             <p>
-                                Lorem Ipsum Dolor Sit Amet Consectetur
-                                Adipisicing Elit. Vitae Vel Quasi Consectetur
-                                Expedita Ipsam Similique Maiores Ipsa? Error,
-                                Debitis Ullam.
+                                I collaborate with a dynamic team to turn ideas
+                                into visually stunning and functional web
+                                solutions, making the digital world a more
+                                visually appealing place, one website at a time.
                             </p>
                         </div>
                     </div>
