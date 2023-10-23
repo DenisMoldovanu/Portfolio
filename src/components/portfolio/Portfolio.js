@@ -54,7 +54,8 @@ function Portfolio() {
                                 <h4>{project.title}</h4>
                                 <a
                                     data-effect="mfp-newspaper"
-                                    href={`assets/img/portfolio-${project.id}.png`}
+                                    href={project.link}
+                                    target="blank"
                                     className="view-btn"
                                 >
                                     <FontAwesomeIcon icon={faEye} />

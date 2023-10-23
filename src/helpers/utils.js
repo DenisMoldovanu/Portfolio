@@ -35,15 +35,44 @@ export const categories = [
     "All",
     "HTML,CSS,JavaScript",
     "React",
-    "HTML&CSS",
     "Squarespace",
 ];
 
 export const projects = [
-    { id: 1, title: "CreativSoft", category: "HTML,CSS,JavaScript" },
-    { id: 2, title: "Food App", category: "React" },
-    { id: 3, title: "Slicing", category: "HTML&CSS" },
-    { id: 4, title: "Garden", category: "HTML,CSS,JavaScript" },
-    { id: 5, title: "React Project", category: "React" },
-    { id: 6, title: "Squarespace SciArk", category: "Squarespace" },
+    {
+        id: 1,
+        title: "CreativSoft",
+        link: "https://www.creativ-soft.com/",
+        category: "HTML,CSS,JavaScript",
+    },
+    {
+        id: 2,
+        title: "AprilAire",
+        link: "https://www.aprilaire.com/",
+        category: "React",
+    },
+    {
+        id: 3,
+        title: "Sanford Sports",
+        link: "https://www.sanfordsports.com/",
+        category: "HTML,CSS,JavaScript",
+    },
+    {
+        id: 4,
+        title: "HireVue",
+        link: "https://www.hirevue.com/",
+        category: "React",
+    },
+    {
+        id: 5,
+        title: "GradThesis",
+        link: "https://gradthesis.sciarc.edu/#lexicon",
+        category: "Squarespace",
+    },
+    {
+        id: 6,
+        title: "UgThesis",
+        link: "https://ugthesis.sciarc.edu/",
+        category: "Squarespace",
+    },
 ];
