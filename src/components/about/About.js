@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faDownload } from "@fortawesome/free-solid-svg-icons";
 import "./style.scss";
-import photo from "../../assets/img/photo2.jpeg";
+import photo from "../../assets/img/profile3.JPG";
 function About({ yearsOfExperience }) {
     const [birthdate] = useState(new Date("1994-08-20")); // Change this to the birthdate you want
     const [currentYear] = useState(new Date().getFullYear());
@@ -80,7 +80,7 @@ function About({ yearsOfExperience }) {
                             </h4>
                             <a
                                 href={require("../../assets/img/CVMoldovanuDenis.pdf")}
-                                download="resume.pdf"
+                                download="Resume.pdf"
                                 className="btn"
                             >
                                 Download CV{" "}

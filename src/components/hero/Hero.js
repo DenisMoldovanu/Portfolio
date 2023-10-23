@@ -1,6 +1,6 @@
 import "./style.scss";
 import { TypeAnimation } from "react-type-animation";
-import hero from "../../assets/img/Home-Image.png";
+import hero from "../../assets/img/profile4.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
     faSquareInstagram,
