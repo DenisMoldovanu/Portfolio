@@ -155,6 +155,15 @@ function About({ yearsOfExperience }) {
                                 <span></span>{" "}
                             </div>
                         </div>
+                        <div className="box">
+                            <h3>
+                                WCAG<span> 80% </span>{" "}
+                            </h3>
+                            <div className="progress-bar">
+                                {" "}
+                                <span></span>{" "}
+                            </div>
+                        </div>
                     </div>
 
                     <div className="skill-item item2">
@@ -178,7 +187,16 @@ function About({ yearsOfExperience }) {
                         </div>
                         <div className="box">
                             <h3>
-                                React<span> 70% </span>{" "}
+                                React<span> 75% </span>{" "}
+                            </h3>
+                            <div className="progress-bar">
+                                {" "}
+                                <span></span>{" "}
+                            </div>
+                        </div>
+                        <div className="box">
+                            <h3>
+                                Squarespace<span> 70% </span>{" "}
                             </h3>
                             <div className="progress-bar">
                                 {" "}
