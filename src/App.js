@@ -21,8 +21,8 @@ function App() {
     return (
         <div className="App">
             <Header />
+            <Hero yearsOfExperience={yearsOfExperience} />
             <div className="container">
-                <Hero yearsOfExperience={yearsOfExperience} />
                 <About yearsOfExperience={yearsOfExperience} />
                 <Qualification />
                 <Services />
