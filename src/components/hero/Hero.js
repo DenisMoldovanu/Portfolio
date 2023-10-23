@@ -46,7 +46,10 @@ function Hero({ yearsOfExperience }) {
                     <div className="contact-info">
                         <div className="info-item">
                             <div className="detail">
-                                <a href="">
+                                <a
+                                    href="https://instagram.com/denismoldovannuu?igshid=YTQwZjQ0NmI0OA%3D%3D&utm_source=qr"
+                                    target="blank"
+                                >
                                     <FontAwesomeIcon icon={faSquareInstagram} />
                                 </a>
                             </div>
@@ -54,7 +57,10 @@ function Hero({ yearsOfExperience }) {
 
                         <div className="info-item">
                             <div className="detail">
-                                <a href="">
+                                <a
+                                    href="mailto:denismoldovanu8@gmail.com"
+                                    target="blank"
+                                >
                                     <FontAwesomeIcon icon={faEnvelope} />
                                 </a>
                             </div>
@@ -62,7 +68,10 @@ function Hero({ yearsOfExperience }) {
 
                         <div className="info-item">
                             <div className="detail">
-                                <a href="">
+                                <a
+                                    href="https://uk.linkedin.com/in/denis-moldovanu-7a3ab520b"
+                                    target="blank"
+                                >
                                     <FontAwesomeIcon icon={faLinkedin} />
                                 </a>
                             </div>
@@ -70,7 +79,10 @@ function Hero({ yearsOfExperience }) {
 
                         <div className="info-item">
                             <div className="detail">
-                                <a href="">
+                                <a
+                                    href="https://github.com/DenisMoldovanu"
+                                    target="blank"
+                                >
                                     <FontAwesomeIcon icon={faGithub} />
                                 </a>
                             </div>
