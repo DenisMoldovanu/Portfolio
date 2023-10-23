@@ -21,8 +21,11 @@ function Qualification() {
                             <FontAwesomeIcon icon={faGraduationCap} />
                         </div>
                         <div className="content">
-                            <span>2015 - 2016</span>
-                            <h3>engineering</h3>
+                            <span>2010 - 2013</span>
+                            <h3>
+                                High School Diploma <br />
+                                Elena Alistar Theoretical Lyceum of Arts
+                            </h3>
                             <p>
                                 Lorem Ipsum Dolor Sit Amet Consectetur
                                 Adipisicing Elit. Vitae Vel Quasi Consectetur
@@ -37,8 +40,11 @@ function Qualification() {
                             <FontAwesomeIcon icon={faGraduationCap} />
                         </div>
                         <div className="content">
-                            <span>2016 - 2017</span>
-                            <h3>engineering</h3>
+                            <span>2013 - 2016</span>
+                            <h3>
+                                BSc (Hons) Business and Administration <br />{" "}
+                                State University of Moldova
+                            </h3>
                             <p>
                                 Lorem Ipsum Dolor Sit Amet Consectetur
                                 Adipisicing Elit. Vitae Vel Quasi Consectetur
@@ -54,7 +60,10 @@ function Qualification() {
                         </div>
                         <div className="content">
                             <span>2017 - 2018</span>
-                            <h3>engineering</h3>
+                            <h3>
+                                Web Development Course <br />
+                                Udemy
+                            </h3>
                             <p>
                                 Lorem Ipsum Dolor Sit Amet Consectetur
                                 Adipisicing Elit. Vitae Vel Quasi Consectetur
@@ -71,40 +80,49 @@ function Qualification() {
                             <FontAwesomeIcon icon={faBriefcase} />
                         </div>
                         <div className="content">
-                            <span>2018 - 2019</span>
-                            <h3>front-end development</h3>
-                            <p>
-                                Lorem Ipsum Dolor Sit Amet Consectetur
-                                Adipisicing Elit. Vitae Vel Quasi Consectetur
-                                Expedita Ipsam Similique Maiores Ipsa? Error,
-                                Debitis Ullam.
-                            </p>
-                        </div>
-                    </div>
-
-                    <div className="experience-item">
-                        <div className="icon-block">
-                            <FontAwesomeIcon icon={faBriefcase} />
-                        </div>
-                        <div className="content">
-                            <span>2019 - 2020</span>
-                            <h3>front-end development</h3>
-                            <p>
-                                Lorem Ipsum Dolor Sit Amet Consectetur
-                                Adipisicing Elit. Vitae Vel Quasi Consectetur
-                                Expedita Ipsam Similique Maiores Ipsa? Error,
-                                Debitis Ullam.
-                            </p>
-                        </div>
-                    </div>
-
-                    <div className="experience-item">
-                        <div className="icon-block">
-                            <FontAwesomeIcon icon={faBriefcase} />
-                        </div>
-                        <div className="content">
                             <span>2020 - 2021</span>
-                            <h3>front-end development</h3>
+                            <h3>
+                                Front-End Developer <br />
+                                It System
+                            </h3>
+                            <p>
+                                Lorem Ipsum Dolor Sit Amet Consectetur
+                                Adipisicing Elit. Vitae Vel Quasi Consectetur
+                                Expedita Ipsam Similique Maiores Ipsa? Error,
+                                Debitis Ullam.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div className="experience-item">
+                        <div className="icon-block">
+                            <FontAwesomeIcon icon={faBriefcase} />
+                        </div>
+                        <div className="content">
+                            <span>2020 - Current</span>
+                            <h3>
+                                Freelance - Web Developer <br />
+                                Upwork
+                            </h3>
+                            <p>
+                                Lorem Ipsum Dolor Sit Amet Consectetur
+                                Adipisicing Elit. Vitae Vel Quasi Consectetur
+                                Expedita Ipsam Similique Maiores Ipsa? Error,
+                                Debitis Ullam.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div className="experience-item">
+                        <div className="icon-block">
+                            <FontAwesomeIcon icon={faBriefcase} />
+                        </div>
+                        <div className="content">
+                            <span>2021 - Curent</span>
+                            <h3>
+                                Front-End Developer <br />
+                                CreativSoft
+                            </h3>
                             <p>
                                 Lorem Ipsum Dolor Sit Amet Consectetur
                                 Adipisicing Elit. Vitae Vel Quasi Consectetur
