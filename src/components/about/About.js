@@ -111,9 +111,9 @@ function About({ yearsOfExperience }) {
 
                             <div className="box">
                                 <h1 className="count" data-count="20">
-                                    20+
+                                    12+
                                 </h1>
-                                <h3>awards won</h3>
+                                <h3>Technologies and Stacks </h3>
                             </div>
                         </div>
                     </div>
