@@ -45,10 +45,10 @@ function Qualification() {
                                 State University of Moldova
                             </h3>
                             <p>
-                                Students gain a strong foundation in business
-                                principles and administration practices,
-                                preparing them for diverse career opportunities
-                                in the dynamic world of business.
+                                Gain a strong foundation in business principles
+                                and administration practices, preparing them for
+                                diverse career opportunities in the dynamic
+                                world of business.
                             </p>
                         </div>
                     </div>
