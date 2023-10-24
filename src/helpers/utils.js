@@ -33,7 +33,7 @@ export const navlink = [
 
 export const categories = [
     "All",
-    "HTML,CSS,JavaScript",
+    "HTML CSS JavaScript",
     "React",
     "Squarespace",
 ];
@@ -43,7 +43,7 @@ export const projects = [
         id: 1,
         title: "CreativSoft",
         link: "https://www.creativ-soft.com/",
-        category: "HTML,CSS,JavaScript",
+        category: "HTML CSS JavaScript",
     },
     {
         id: 2,
@@ -55,7 +55,7 @@ export const projects = [
         id: 3,
         title: "Sanford Sports",
         link: "https://www.sanfordsports.com/",
-        category: "HTML,CSS,JavaScript",
+        category: "HTML CSS JavaScript",
     },
     {
         id: 4,
