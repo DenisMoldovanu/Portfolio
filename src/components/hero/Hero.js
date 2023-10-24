@@ -38,9 +38,9 @@ function Hero({ yearsOfExperience }) {
                     />
                 </h1>
                 <p>
-                    Creative Developer Offering {yearsOfExperience}+ Years Of
-                    Experience Providing High-Impact Web Solutions For Many
-                    Different Organizations.
+                    Experienced Creative Developer with over {yearsOfExperience}{" "}
+                    years of expertise in delivering impactful web solutions for
+                    diverse organizations.
                 </p>
                 <div className="contact-section">
                     <div className="contact-info">
