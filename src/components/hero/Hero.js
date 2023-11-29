@@ -58,7 +58,7 @@ function Hero({ yearsOfExperience }) {
                         <div className="info-item">
                             <div className="detail">
                                 <a
-                                    href="mailto:denismoldovanu8@gmail.com"
+                                    href="mailto:deniscreativsoft@gmail.com"
                                     target="blank"
                                 >
                                     <FontAwesomeIcon icon={faEnvelope} />
