@@ -1,279 +1,299 @@
-@import '../../assets/styles/colors.scss';
-.about-section{
-	padding: 0px 5%;
-	margin-bottom: 100px;
-	@include respondto(maxLargeDesktop) {
-		margin-bottom: 50px;
-	}
-	.box-container{
-		margin-bottom: 150px;
-		display: flex;
-		align-items: flex-start;
-		justify-content: space-between;
-		gap: 15px;
-		@include respondto(maxLargeDesktop) {
+@import "../../assets/styles/colors.scss";
+.about-section {
+    padding: 0px 5%;
+    margin-bottom: 100px;
+    @include respondto(maxLargeDesktop) {
+        margin-bottom: 50px;
+    }
+    .box-container {
+        margin-bottom: 150px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        gap: 15px;
+        @include respondto(maxLargeDesktop) {
             flex-direction: column;
-			margin-bottom: 100px;
+            margin-bottom: 100px;
         }
-		.img-box{
-			max-width: 450px;
-			width: 100%;
-			@include respondto(maxLargeDesktop) {
-				display: flex;
-				max-width: 100%;
-				margin-bottom: 15px;
-			}
-			@include respondto(phone) {
+        .img-box {
+            max-width: 450px;
+            width: 100%;
+            @include respondto(maxLargeDesktop) {
+                display: flex;
+                max-width: 100%;
+                margin-bottom: 15px;
+            }
+            @include respondto(phone) {
                 flex-direction: column;
             }
 
-			img{
-				width: 100%;
-				object-fit: cover;
-				border-radius: 15px;
-				box-shadow: -15px -15px $blueDark;
-				@include respondto(maxLargeDesktop) {
-					width: 50%;
-				}
-				@include respondto(phone) {
-					width: 100%;
-					margin: 0 auto;
-					margin-bottom: 35px;
-				}
-			}
-		}
-		.content{
-			h2{
-				font-size: 26px;
-				margin-bottom: 15px;
-				font-weight: 700;
-			}
-			p{
-				line-height: 1.2;
-				margin-bottom: 35px;
-				color: $lightGrey;
-			}
-			.about-info{
-				display: flex;
-				align-items: center;
-				justify-content: space-between;
-				.counting{
-					display: grid;
-					grid-template-columns: 1fr 1fr;
-					row-gap: 10px;
-					column-gap: 10px;
-					max-width: 700px;
-					width: 100%;
-					@include respondto(maxLargeDesktop) {
-						max-width: 100%;
-					}
-					@include respondto(iphone5) {
-						grid-template-columns: 1fr;
-					}
-					.box{
-						max-width: 350px;
-						padding: 30px;
-						background-color: #222;
-						text-align: center;
-						@include respondto(maxLargeDesktop) {
-							max-width: 100%;
-						}
-						h1{
-							color: $blueDark;
-							font-size: 40px;
-							font-weight: 700;
-							margin-bottom: 5px;
-						}
-						h3{
-							font-size: 18px;
-							font-weight: 700;
-							text-transform: capitalize;
-						}
-					}
-				}
-			}
-		}
-		.info{
-			margin-right: 15px;
-			h4{
-				font-weight: 700;
-				margin-bottom: 15px;
-				font-size: 18px;
-				text-wrap: nowrap;
-				@include respondto(maxLargeDesktop) {
-					margin-bottom: 25px;
-				}
-				@include respondto(phone) {
-					text-wrap: pretty;
-				}
-				span{
-					display: inline-block;
-					font-weight: 400;
-					margin-left: 5px;
-					color: $lightGrey;
-				}
-			}
-			.btn{
-				display: inline-block;
-				padding: 10px 20px;
-				font-size: 18px;
-				color: $blueDark;
-				background-color: transparent;
-				border: 0.2rem solid $blueDark;
-				text-decoration: none;
-				margin-top: 10px;
-				&:hover{
-					background-color: $blueDark;
-					color: $white;
-				}
-			}
-		}
-		.hidden-xm{
-			display: none;
-			@include respondto(maxLargeDesktop) {
-				display: block;
-				margin-right: 0px;
-				margin-left: 35px;
-			}
-			@include respondto(phone) {
+            img {
+                width: 100%;
+                object-fit: cover;
+                border-radius: 15px;
+                box-shadow: -15px -15px $blueDark;
+                @include respondto(maxLargeDesktop) {
+                    width: 50%;
+                }
+                @include respondto(phone) {
+                    width: 100%;
+                    margin: 0 auto;
+                    margin-bottom: 35px;
+                }
+            }
+        }
+        .content {
+            h2 {
+                font-size: 26px;
+                margin-bottom: 15px;
+                font-weight: 700;
+            }
+            p {
+                line-height: 1.2;
+                margin-bottom: 35px;
+                color: $lightGrey;
+            }
+            .about-info {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                .counting {
+                    display: grid;
+                    grid-template-columns: 1fr 1fr;
+                    row-gap: 10px;
+                    column-gap: 10px;
+                    max-width: 700px;
+                    width: 100%;
+                    @include respondto(maxLargeDesktop) {
+                        max-width: 100%;
+                    }
+                    @include respondto(iphone5) {
+                        grid-template-columns: 1fr;
+                    }
+                    .box {
+                        max-width: 350px;
+                        padding: 30px;
+                        background-color: #222;
+                        text-align: center;
+                        @include respondto(maxLargeDesktop) {
+                            max-width: 100%;
+                        }
+                        h1 {
+                            color: $blueDark;
+                            font-size: 40px;
+                            font-weight: 700;
+                            margin-bottom: 5px;
+                        }
+                        h3 {
+                            font-size: 18px;
+                            font-weight: 700;
+                            text-transform: capitalize;
+                        }
+                    }
+                }
+            }
+        }
+        .info {
+            margin-right: 15px;
+            h4 {
+                font-weight: 700;
+                margin-bottom: 15px;
+                font-size: 18px;
+                text-wrap: nowrap;
+                @include respondto(maxLargeDesktop) {
+                    margin-bottom: 25px;
+                }
+                @include respondto(phone) {
+                    text-wrap: pretty;
+                }
+                span {
+                    display: inline-block;
+                    font-weight: 400;
+                    margin-left: 5px;
+                    color: $lightGrey;
+                }
+            }
+            .btn {
+                display: inline-block;
+                padding: 10px 20px;
+                font-size: 18px;
+                color: $blueDark;
+                background-color: transparent;
+                border: 0.2rem solid $blueDark;
+                text-decoration: none;
+                margin-top: 10px;
+                &:hover {
+                    background-color: $blueDark;
+                    color: $white;
+                }
+            }
+        }
+        .hidden-xm {
+            display: none;
+            @include respondto(maxLargeDesktop) {
+                display: block;
+                margin-right: 0px;
+                margin-left: 35px;
+            }
+            @include respondto(phone) {
                 margin-left: 0px;
             }
-		}
-		.hidden-xd{
-			@include respondto(maxLargeDesktop) {
-				display: none;
-			}
-		}
-	}
-	.skill-container{
-		.heading{
-			h2{
-				font-size: 40px;
-				text-align: center;
-				color: $blueDark;
-				font-weight: 700;
-				margin-bottom: 25px;
-				span{
-					position: relative;
-					color: $white;
-					&::after{
-						content: '';
-						position: absolute;
-						bottom: -0.5rem;
-						left: 0;
-						z-index: -1;
-						background: $blueDark;
-						height: 0.2rem;
-						width: 100%;
-					}
-				}
-			}
-		}
-		.skills{
-			display: flex;
-			gap: 25px;
-			flex-wrap: wrap;
-			.skill-item{
-				width: 100%;
-				flex: 1 1 500px;
-				.box{
-					padding: 20px 0px;
-					h3{
-						font-weight: 500;
-						text-transform: capitalize;
-						margin-bottom: 10px;
-					}
-					.progress-bar{
-						background-color: #222;
-						border-radius: 5px;
-						height: 10px;
-					}
-				}
-			}
-			.item1{
-				.box:nth-child(1){
-					.progress-bar{
-						span{
-							display: block;
-							height: 10px;
-							width: 95%;
-							background-color: $blueDark;
-						}
-					}
-				}
-				.box:nth-child(2){
-					.progress-bar{
-						span{
-							display: block;
-							height: 10px;
-							width: 90%;
-							background-color: $blueDark;
-						}
-					}
-				}
-				.box:nth-child(3){
-					.progress-bar{
-						span{
-							display: block;
-							height: 10px;
-							width: 85%;
-							background-color: $blueDark;
-						}
-					}
-				}
-				.box:nth-child(4){
-					.progress-bar{
-						span{
-							display: block;
-							height: 10px;
-							width: 80%;
-							background-color: $blueDark;
-						}
-					}
-				}
-			}
-			.item2{
-				.box:nth-child(1){
-					.progress-bar{
-						span{
-							display: block;
-							height: 10px;
-							width: 90%;
-							background-color: $blueDark;
-						}
-					}
-				}
-				.box:nth-child(2){
-					.progress-bar{
-						span{
-							display: block;
-							height: 10px;
-							width: 80%;
-							background-color: $blueDark;
-						}
-					}
-				}
-				.box:nth-child(3){
-					.progress-bar{
-						span{
-							display: block;
-							height: 10px;
-							width: 75%;
-							background-color: $blueDark;
-						}
-					}
-				}
-				.box:nth-child(4){
-					.progress-bar{
-						span{
-							display: block;
-							height: 10px;
-							width: 70%;
-							background-color: $blueDark;
-						}
-					}
-				}
-			}
-		}
-	}
+        }
+        .hidden-xd {
+            @include respondto(maxLargeDesktop) {
+                display: none;
+            }
+        }
+    }
+    .skill-container {
+        .heading {
+            h2 {
+                font-size: 40px;
+                text-align: center;
+                color: $blueDark;
+                font-weight: 700;
+                margin-bottom: 25px;
+                span {
+                    position: relative;
+                    color: $white;
+                    &::after {
+                        content: "";
+                        position: absolute;
+                        bottom: -0.5rem;
+                        left: 0;
+                        z-index: -1;
+                        background: $blueDark;
+                        height: 0.2rem;
+                        width: 100%;
+                    }
+                }
+            }
+        }
+        .skills {
+            display: flex;
+            gap: 25px;
+            flex-wrap: wrap;
+            .skill-item {
+                width: 100%;
+                flex: 1 1 500px;
+                .box {
+                    padding: 20px 0px;
+                    h3 {
+                        font-weight: 500;
+                        text-transform: capitalize;
+                        margin-bottom: 10px;
+                    }
+                    .progress-bar {
+                        background-color: #222;
+                        border-radius: 5px;
+                        height: 10px;
+                    }
+                }
+            }
+            .item1 {
+                .box:nth-child(1) {
+                    .progress-bar {
+                        span {
+                            display: block;
+                            height: 10px;
+                            width: 95%;
+                            background-color: $blueDark;
+                        }
+                    }
+                }
+                .box:nth-child(2) {
+                    .progress-bar {
+                        span {
+                            display: block;
+                            height: 10px;
+                            width: 90%;
+                            background-color: $blueDark;
+                        }
+                    }
+                }
+                .box:nth-child(3) {
+                    .progress-bar {
+                        span {
+                            display: block;
+                            height: 10px;
+                            width: 85%;
+                            background-color: $blueDark;
+                        }
+                    }
+                }
+                .box:nth-child(4) {
+                    .progress-bar {
+                        span {
+                            display: block;
+                            height: 10px;
+                            width: 80%;
+                            background-color: $blueDark;
+                        }
+                    }
+                }
+                .box:nth-child(5) {
+                    .progress-bar {
+                        span {
+                            display: block;
+                            height: 10px;
+                            width: 65%;
+                            background-color: $blueDark;
+                        }
+                    }
+                }
+            }
+            .item2 {
+                .box:nth-child(1) {
+                    .progress-bar {
+                        span {
+                            display: block;
+                            height: 10px;
+                            width: 90%;
+                            background-color: $blueDark;
+                        }
+                    }
+                }
+                .box:nth-child(2) {
+                    .progress-bar {
+                        span {
+                            display: block;
+                            height: 10px;
+                            width: 80%;
+                            background-color: $blueDark;
+                        }
+                    }
+                }
+                .box:nth-child(3) {
+                    .progress-bar {
+                        span {
+                            display: block;
+                            height: 10px;
+                            width: 75%;
+                            background-color: $blueDark;
+                        }
+                    }
+                }
+                .box:nth-child(4) {
+                    .progress-bar {
+                        span {
+                            display: block;
+                            height: 10px;
+                            width: 70%;
+                            background-color: $blueDark;
+                        }
+                    }
+                }
+                .box:nth-child(5) {
+                    .progress-bar {
+                        span {
+                            display: block;
+                            height: 10px;
+                            width: 90%;
+                            background-color: $blueDark;
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
