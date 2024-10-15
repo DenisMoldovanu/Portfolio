@@ -51,14 +51,18 @@ function About({ yearsOfExperience }) {
                 <div className="content">
                     <h2>My Name Is Denis</h2>
                     <p>
-                        A dedicated professional with a background in Business
-                        Management and Administration, boasting{" "}
-                        {yearsOfExperience} years of expertise as a Front-End
-                        Developer. Proficient in the art of constructing and
-                        enhancing web pages, driven by a deep enthusiasm for
-                        transforming designs into captivating, user-friendly
-                        experiences. Eagerly searching for fresh prospects and
-                        demanding projects to further enhance my skill set.
+                        Passionate and results-driven front-end developer with{" "}
+                        {yearsOfExperience} years of experience in designing and
+                        implementing user-focused, responsive web applications.
+                        Proficient in HTML, CSS, JavaScript, and modern
+                        frameworks like React. Adept at collaborating with
+                        cross-functional teams to deliver high-quality
+                        solutions, I have a strong track record of turning
+                        design concepts into functional, optimized websites and
+                        applications. With a focus on clean code, performance,
+                        and accessibility, I’m committed to continuous learning
+                        and staying up-to-date with the latest industry trends
+                        and technologies.
                     </p>
                     <div className="about-info">
                         <div className="info hidden-xd">

@@ -38,17 +38,9 @@ function Hero({ yearsOfExperience }) {
                     />
                 </h1>
                 <p>
-                    Passionate and results-driven front-end developer with{" "}
-                    {yearsOfExperience} years of experience in designing and
-                    implementing user-focused, responsive web applications.
-                    Proficient in HTML, CSS, JavaScript, and modern frameworks
-                    like React. Adept at collaborating with cross-functional
-                    teams to deliver high-quality solutions, I have a strong
-                    track record of turning design concepts into functional,
-                    optimized websites and applications. With a focus on clean
-                    code, performance, and accessibility, I’m committed to
-                    continuous learning and staying up-to-date with the latest
-                    industry trends and technologies.
+                    Experienced Creative Developer with over {yearsOfExperience}{" "}
+                    years of expertise in delivering impactful web solutions for
+                    diverse organizations.
                 </p>
                 <div className="contact-section">
                     <div className="contact-info">
