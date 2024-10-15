@@ -75,4 +75,22 @@ export const projects = [
         link: "https://ugthesis.sciarc.edu/",
         category: "Squarespace",
     },
+    {
+        id: 7,
+        title: "Archer Affiliates",
+        link: "https://slicing-work.vercel.app/",
+        category: "HTML CSS JavaScript",
+    },
+    {
+        id: 8,
+        title: "Audax",
+        link: "https://audax-lyart.vercel.app/",
+        category: "React",
+    },
+    {
+        id: 9,
+        title: "The Lancer Group",
+        link: "https://lancer-group.vercel.app/",
+        category: "React",
+    },
 ];
