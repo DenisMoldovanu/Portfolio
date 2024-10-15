@@ -93,4 +93,22 @@ export const projects = [
         link: "https://lancer-group.vercel.app/",
         category: "React",
     },
+    {
+        id: 10,
+        title: "ChatBot for Charlotte Regional Business Alliance",
+        link: "https://charlotteregion.com/",
+        category: "HTML CSS JavaScript",
+    },
+    {
+        id: 11,
+        title: "Sunflowers",
+        link: "https://www.sunflowers.md/",
+        category: "React",
+    },
+    {
+        id: 12,
+        title: "CasaGrill",
+        link: "https://www.casagrill.md/",
+        category: "React",
+    },
 ];
