@@ -9,7 +9,7 @@ import Footer from "./components/footer/Footer";
 import "./assets/styles/main.scss";
 
 function App() {
-    const [yearsOfExperience, setYearsOfExperience] = useState(4);
+    const [yearsOfExperience, setYearsOfExperience] = useState(3);
     useEffect(() => {
         const intervalId = setInterval(() => {
             setYearsOfExperience((prevExperience) => prevExperience + 1);
