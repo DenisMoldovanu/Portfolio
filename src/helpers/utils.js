@@ -111,4 +111,16 @@ export const projects = [
         link: "https://www.casagrill.md/",
         category: "React",
     },
+    {
+        id: 13,
+        title: "Wonderhatch",
+        link: "https://wonderhatch.com/",
+        category: "HTML CSS JavaScript",
+    },
+    {
+        id: 14,
+        title: "AVEVA",
+        link: "https://partnergames.aveva.com/",
+        category: "React",
+    },
 ];
