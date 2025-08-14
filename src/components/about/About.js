@@ -3,6 +3,9 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faDownload } from "@fortawesome/free-solid-svg-icons";
 import "./style.scss";
 import photo from "../../assets/img/profile3.JPG";
+// Import your Skills component
+import Skills from "../skills/skills";
+
 function About({ yearsOfExperience }) {
     const [birthdate] = useState(new Date("1994-08-20")); // Change this to the birthdate you want
     const [currentYear] = useState(new Date().getFullYear());
@@ -115,129 +118,7 @@ function About({ yearsOfExperience }) {
                     </div>
                 </div>
             </div>
-            <div className="skill-container">
-                <div className="heading">
-                    <h2 data-aos="fade-up">
-                        My <span>Skills</span>
-                    </h2>
-                </div>
-
-                <div className="skills">
-                    <div className="skill-item item1">
-                        <div data-aos="fade-up" className="box">
-                            <h3>
-                                HTML5<span> 100% </span>{" "}
-                            </h3>
-                            <div className="progress-bar">
-                                {" "}
-                                <span></span>{" "}
-                            </div>
-                        </div>
-                        <div data-aos="fade-up" className="box">
-                            <h3>
-                                CSS3<span> 100% </span>{" "}
-                            </h3>
-                            <div className="progress-bar">
-                                {" "}
-                                <span></span>{" "}
-                            </div>
-                        </div>
-                        <div data-aos="fade-up" className="box">
-                            <h3>
-                                javaScript<span> 90% </span>{" "}
-                            </h3>
-                            <div className="progress-bar">
-                                {" "}
-                                <span></span>{" "}
-                            </div>
-                        </div>
-                        <div data-aos="fade-up" className="box">
-                            <h3>
-                                WCAG<span> 90% </span>{" "}
-                            </h3>
-                            <div className="progress-bar">
-                                {" "}
-                                <span></span>{" "}
-                            </div>
-                        </div>
-                        <div data-aos="fade-up" className="box">
-                            <h3>
-                                TypeScript<span> 70% </span>{" "}
-                            </h3>
-                            <div className="progress-bar">
-                                {" "}
-                                <span></span>{" "}
-                            </div>
-                        </div>
-                        <div data-aos="fade-up" className="box">
-                            <h3>
-                                GSAP Animations<span> 70% </span>{" "}
-                            </h3>
-                            <div className="progress-bar">
-                                {" "}
-                                <span></span>{" "}
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className="skill-item item2">
-                        <div data-aos="fade-up" className="box">
-                            <h3>
-                                JQuery<span> 90% </span>{" "}
-                            </h3>
-                            <div className="progress-bar">
-                                {" "}
-                                <span></span>{" "}
-                            </div>
-                        </div>
-                        <div data-aos="fade-up" className="box">
-                            <h3>
-                                Bootstrap<span> 90% </span>{" "}
-                            </h3>
-                            <div className="progress-bar">
-                                {" "}
-                                <span></span>{" "}
-                            </div>
-                        </div>
-                        <div data-aos="fade-up" className="box">
-                            <h3>
-                                React<span> 80% </span>{" "}
-                            </h3>
-                            <div className="progress-bar">
-                                {" "}
-                                <span></span>{" "}
-                            </div>
-                        </div>
-                        <div data-aos="fade-up" className="box">
-                            <h3>
-                                Squarespace<span> 70% </span>{" "}
-                            </h3>
-                            <div className="progress-bar">
-                                {" "}
-                                <span></span>{" "}
-                            </div>
-                        </div>
-                        <div data-aos="fade-up" className="box">
-                            <h3>
-                                Tailwind CSS<span> 90% </span>{" "}
-                            </h3>
-                            <div className="progress-bar">
-                                {" "}
-                                <span></span>{" "}
-                            </div>
-                        </div>
-                        <div data-aos="fade-up" className="box">
-                            <h3>
-                                Dynamics 365 Business Central<span> 60% </span>{" "}
-                            </h3>
-                            <div className="progress-bar">
-                                {" "}
-                                <span></span>{" "}
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <Skills />
         </div>
     );
 }
