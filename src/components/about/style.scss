@@ -100,16 +100,17 @@
                 margin-bottom: 15px;
                 font-size: 18px;
                 text-wrap: nowrap;
-                @include respondto(maxLargeDesktop) {
-                    margin-bottom: 25px;
-                }
+                line-height: 24px;
+                display: flex;
+                align-items: center;
+                gap: 5px;
+                flex-wrap: wrap;
                 @include respondto(phone) {
                     text-wrap: pretty;
                 }
                 span {
                     display: inline-block;
                     font-weight: 400;
-                    margin-left: 5px;
                     color: $lightGrey;
                 }
             }
@@ -196,7 +197,7 @@
                         span {
                             display: block;
                             height: 10px;
-                            width: 95%;
+                            width: 100%;
                             background-color: $blueDark;
                         }
                     }
@@ -206,7 +207,7 @@
                         span {
                             display: block;
                             height: 10px;
-                            width: 90%;
+                            width: 100%;
                             background-color: $blueDark;
                         }
                     }
@@ -216,7 +217,7 @@
                         span {
                             display: block;
                             height: 10px;
-                            width: 85%;
+                            width: 90%;
                             background-color: $blueDark;
                         }
                     }
@@ -226,7 +227,7 @@
                         span {
                             display: block;
                             height: 10px;
-                            width: 80%;
+                            width: 90%;
                             background-color: $blueDark;
                         }
                     }
@@ -236,7 +237,7 @@
                         span {
                             display: block;
                             height: 10px;
-                            width: 65%;
+                            width: 70%;
                             background-color: $blueDark;
                         }
                     }
@@ -258,7 +259,7 @@
                         span {
                             display: block;
                             height: 10px;
-                            width: 80%;
+                            width: 90%;
                             background-color: $blueDark;
                         }
                     }
@@ -268,7 +269,7 @@
                         span {
                             display: block;
                             height: 10px;
-                            width: 75%;
+                            width: 80%;
                             background-color: $blueDark;
                         }
                     }

@@ -51,18 +51,11 @@ function About({ yearsOfExperience }) {
                 <div className="content">
                     <h2>My Name Is Denis</h2>
                     <p>
-                        Passionate and results-driven front-end developer with{" "}
-                        {yearsOfExperience} years of experience in designing and
-                        implementing user-focused, responsive web applications.
-                        Proficient in HTML, CSS, JavaScript, and modern
-                        frameworks like React. Adept at collaborating with
-                        cross-functional teams to deliver high-quality
-                        solutions, I have a strong track record of turning
-                        design concepts into functional, optimized websites and
-                        applications. With a focus on clean code, performance,
-                        and accessibility, I’m committed to continuous learning
-                        and staying up-to-date with the latest industry trends
-                        and technologies.
+                        Front-End Developer with{" "}
+                        {yearsOfExperience}+ years of experience building responsive,
+                        user-friendly websites and web applications. Skilled in React, JavaScript (ES6+), Tailwind CSS, and modern UI frameworks.
+                        Delivered 30+ projects for global clients across e-commerce, SaaS, and corporate sectors.
+                        Passionate about clean code, performance optimization, and accessibility (WCAG). Available for full-time remote work.
                     </p>
                     <div className="about-info">
                         <div className="info hidden-xd">
@@ -73,8 +66,7 @@ function About({ yearsOfExperience }) {
                                 Gender: <span>Male</span>
                             </h4>
                             <h4>
-                                Language:
-                                <span>Romanian, Russian, English</span>
+                                Language:<span>Romanian, Russian, English</span>
                             </h4>
                             <h4>
                                 Work: <span>Front-End developer</span>
@@ -134,7 +126,7 @@ function About({ yearsOfExperience }) {
                     <div className="skill-item item1">
                         <div className="box">
                             <h3>
-                                HTML5<span> 95% </span>{" "}
+                                HTML5<span> 100% </span>{" "}
                             </h3>
                             <div className="progress-bar">
                                 {" "}
@@ -143,7 +135,7 @@ function About({ yearsOfExperience }) {
                         </div>
                         <div className="box">
                             <h3>
-                                CSS3<span> 90% </span>{" "}
+                                CSS3<span> 100% </span>{" "}
                             </h3>
                             <div className="progress-bar">
                                 {" "}
@@ -152,7 +144,7 @@ function About({ yearsOfExperience }) {
                         </div>
                         <div className="box">
                             <h3>
-                                javascript<span> 85% </span>{" "}
+                                javascript<span> 90% </span>{" "}
                             </h3>
                             <div className="progress-bar">
                                 {" "}
@@ -161,7 +153,7 @@ function About({ yearsOfExperience }) {
                         </div>
                         <div className="box">
                             <h3>
-                                WCAG<span> 80% </span>{" "}
+                                WCAG<span> 90% </span>{" "}
                             </h3>
                             <div className="progress-bar">
                                 {" "}
@@ -170,7 +162,7 @@ function About({ yearsOfExperience }) {
                         </div>
                         <div className="box">
                             <h3>
-                                TypeScript<span> 60% </span>{" "}
+                                TypeScript<span> 70% </span>{" "}
                             </h3>
                             <div className="progress-bar">
                                 {" "}
@@ -191,7 +183,7 @@ function About({ yearsOfExperience }) {
                         </div>
                         <div className="box">
                             <h3>
-                                Bootstrap<span> 80% </span>{" "}
+                                Bootstrap<span> 90% </span>{" "}
                             </h3>
                             <div className="progress-bar">
                                 {" "}
@@ -200,7 +192,7 @@ function About({ yearsOfExperience }) {
                         </div>
                         <div className="box">
                             <h3>
-                                React<span> 75% </span>{" "}
+                                React<span> 80% </span>{" "}
                             </h3>
                             <div className="progress-bar">
                                 {" "}
