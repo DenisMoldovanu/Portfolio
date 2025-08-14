@@ -144,7 +144,7 @@ function About({ yearsOfExperience }) {
                         </div>
                         <div className="box">
                             <h3>
-                                javascript<span> 90% </span>{" "}
+                                javaScript<span> 90% </span>{" "}
                             </h3>
                             <div className="progress-bar">
                                 {" "}
@@ -163,6 +163,15 @@ function About({ yearsOfExperience }) {
                         <div className="box">
                             <h3>
                                 TypeScript<span> 70% </span>{" "}
+                            </h3>
+                            <div className="progress-bar">
+                                {" "}
+                                <span></span>{" "}
+                            </div>
+                        </div>
+                        <div className="box">
+                            <h3>
+                                GSAP Animations<span> 70% </span>{" "}
                             </h3>
                             <div className="progress-bar">
                                 {" "}
@@ -211,6 +220,15 @@ function About({ yearsOfExperience }) {
                         <div className="box">
                             <h3>
                                 Tailwind CSS<span> 90% </span>{" "}
+                            </h3>
+                            <div className="progress-bar">
+                                {" "}
+                                <span></span>{" "}
+                            </div>
+                        </div>
+                        <div className="box">
+                            <h3>
+                                Dynamics 365 Business Central<span> 60% </span>{" "}
                             </h3>
                             <div className="progress-bar">
                                 {" "}

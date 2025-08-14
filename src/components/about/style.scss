@@ -242,6 +242,16 @@
                         }
                     }
                 }
+                .box:nth-child(6) {
+                    .progress-bar {
+                        span {
+                            display: block;
+                            height: 10px;
+                            width: 70%;
+                            background-color: $blueDark;
+                        }
+                    }
+                }
             }
             .item2 {
                 .box:nth-child(1) {
@@ -290,6 +300,16 @@
                             display: block;
                             height: 10px;
                             width: 90%;
+                            background-color: $blueDark;
+                        }
+                    }
+                }
+                .box:nth-child(6) {
+                    .progress-bar {
+                        span {
+                            display: block;
+                            height: 10px;
+                            width: 60%;
                             background-color: $blueDark;
                         }
                     }
