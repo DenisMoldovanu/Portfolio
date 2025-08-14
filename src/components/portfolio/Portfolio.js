@@ -18,13 +18,13 @@ function Portfolio() {
     return (
         <div className="portfolio-section" id="portfolio">
             <div className="heading">
-                <h2>
+                <h2 data-aos="fade-up">
                     My <span>Portfolio</span>
                 </h2>
             </div>
 
             <div className="gallery">
-                <ul className="controls">
+                <ul data-aos="fade-up" className="controls">
                     {categories.map((category) => (
                         <li
                             key={category}
@@ -42,7 +42,7 @@ function Portfolio() {
 
                 <div className="box-container">
                     {filteredProjects.map((project) => (
-                        <div
+                        <div data-aos="zoom-in"
                             key={project.id}
                             className={`portfolio-item image ${project.category.toLowerCase()}`}
                         >

@@ -14,13 +14,13 @@ function Services() {
     return (
         <div className="services-section" id="services">
             <div className="heading">
-                <h2>
+                <h2 data-aos="fade-up">
                     My <span>Services</span>
                 </h2>
             </div>
 
             <div className="box-container">
-                <div className="service-item">
+                <div data-aos="fade-up" className="service-item">
                     <FontAwesomeIcon icon={faHouseLaptop} />
                     <h3>HTML & CSS Responsive Web Design</h3>
                     <p>
@@ -31,7 +31,7 @@ function Services() {
                     </p>
                 </div>
 
-                <div className="service-item">
+                <div data-aos="fade-up" data-aos-delay="200" className="service-item">
                     <FontAwesomeIcon icon={faReact} />
                     <h3>React JS Development</h3>
                     <p>
@@ -42,7 +42,7 @@ function Services() {
                     </p>
                 </div>
 
-                <div className="service-item">
+                <div data-aos="fade-up" data-aos-delay="400" className="service-item">
                     <FontAwesomeIcon icon={faJsSquare} />
                     <h3>Javascript Development</h3>
                     <p>
@@ -53,7 +53,7 @@ function Services() {
                     </p>
                 </div>
 
-                <div className="service-item">
+                <div data-aos="fade-up" className="service-item">
                     <FontAwesomeIcon icon={faBootstrap} />
                     <h3>PSD to Bootstrap Services</h3>
                     <p>
@@ -65,7 +65,7 @@ function Services() {
                     </p>
                 </div>
 
-                <div className="service-item">
+                <div data-aos="fade-up" data-aos-delay="200" className="service-item">
                     <FontAwesomeIcon icon={faSquarespace} />
                     <h3>Squarespace Development</h3>
                     <p>
@@ -76,7 +76,7 @@ function Services() {
                     </p>
                 </div>
 
-                <div className="service-item">
+                <div data-aos="fade-up" data-aos-delay="400" className="service-item">
                     <FontAwesomeIcon icon={faUniversalAccess} />
                     <h3>WCAG Services</h3>
                     <p>

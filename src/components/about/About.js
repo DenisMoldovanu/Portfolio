@@ -21,7 +21,7 @@ function About({ yearsOfExperience }) {
         <div className="about-section" id="about">
             <div className="box-container">
                 <div className="img-box">
-                    <img src={photo} alt="" />
+                    <img data-aos="fade-right" src={photo} alt="" />
                     <div className="info hidden-xm">
                         <h4>
                             Age: <span>{age}</span>
@@ -48,7 +48,7 @@ function About({ yearsOfExperience }) {
                         </a>
                     </div>
                 </div>
-                <div className="content">
+                <div data-aos="fade-left" className="content">
                     <h2>My Name Is Denis</h2>
                     <p>
                         Front-End Developer with{" "}
@@ -117,14 +117,14 @@ function About({ yearsOfExperience }) {
             </div>
             <div className="skill-container">
                 <div className="heading">
-                    <h2>
+                    <h2 data-aos="fade-up">
                         My <span>Skills</span>
                     </h2>
                 </div>
 
                 <div className="skills">
                     <div className="skill-item item1">
-                        <div className="box">
+                        <div data-aos="fade-up" className="box">
                             <h3>
                                 HTML5<span> 100% </span>{" "}
                             </h3>
@@ -133,7 +133,7 @@ function About({ yearsOfExperience }) {
                                 <span></span>{" "}
                             </div>
                         </div>
-                        <div className="box">
+                        <div data-aos="fade-up" className="box">
                             <h3>
                                 CSS3<span> 100% </span>{" "}
                             </h3>
@@ -142,7 +142,7 @@ function About({ yearsOfExperience }) {
                                 <span></span>{" "}
                             </div>
                         </div>
-                        <div className="box">
+                        <div data-aos="fade-up" className="box">
                             <h3>
                                 javaScript<span> 90% </span>{" "}
                             </h3>
@@ -151,7 +151,7 @@ function About({ yearsOfExperience }) {
                                 <span></span>{" "}
                             </div>
                         </div>
-                        <div className="box">
+                        <div data-aos="fade-up" className="box">
                             <h3>
                                 WCAG<span> 90% </span>{" "}
                             </h3>
@@ -160,7 +160,7 @@ function About({ yearsOfExperience }) {
                                 <span></span>{" "}
                             </div>
                         </div>
-                        <div className="box">
+                        <div data-aos="fade-up" className="box">
                             <h3>
                                 TypeScript<span> 70% </span>{" "}
                             </h3>
@@ -169,7 +169,7 @@ function About({ yearsOfExperience }) {
                                 <span></span>{" "}
                             </div>
                         </div>
-                        <div className="box">
+                        <div data-aos="fade-up" className="box">
                             <h3>
                                 GSAP Animations<span> 70% </span>{" "}
                             </h3>
@@ -181,7 +181,7 @@ function About({ yearsOfExperience }) {
                     </div>
 
                     <div className="skill-item item2">
-                        <div className="box">
+                        <div data-aos="fade-up" className="box">
                             <h3>
                                 JQuery<span> 90% </span>{" "}
                             </h3>
@@ -190,7 +190,7 @@ function About({ yearsOfExperience }) {
                                 <span></span>{" "}
                             </div>
                         </div>
-                        <div className="box">
+                        <div data-aos="fade-up" className="box">
                             <h3>
                                 Bootstrap<span> 90% </span>{" "}
                             </h3>
@@ -199,7 +199,7 @@ function About({ yearsOfExperience }) {
                                 <span></span>{" "}
                             </div>
                         </div>
-                        <div className="box">
+                        <div data-aos="fade-up" className="box">
                             <h3>
                                 React<span> 80% </span>{" "}
                             </h3>
@@ -208,7 +208,7 @@ function About({ yearsOfExperience }) {
                                 <span></span>{" "}
                             </div>
                         </div>
-                        <div className="box">
+                        <div data-aos="fade-up" className="box">
                             <h3>
                                 Squarespace<span> 70% </span>{" "}
                             </h3>
@@ -217,7 +217,7 @@ function About({ yearsOfExperience }) {
                                 <span></span>{" "}
                             </div>
                         </div>
-                        <div className="box">
+                        <div data-aos="fade-up" className="box">
                             <h3>
                                 Tailwind CSS<span> 90% </span>{" "}
                             </h3>
@@ -226,7 +226,7 @@ function About({ yearsOfExperience }) {
                                 <span></span>{" "}
                             </div>
                         </div>
-                        <div className="box">
+                        <div data-aos="fade-up" className="box">
                             <h3>
                                 Dynamics 365 Business Central<span> 60% </span>{" "}
                             </h3>

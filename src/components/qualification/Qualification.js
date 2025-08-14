@@ -9,13 +9,13 @@ function Qualification() {
     return (
         <div className="qualification-section" id="qualification">
             <div className="heading">
-                <h2>
+                <h2 data-aos="fade-up">
                     My <span>Qualification</span>
                 </h2>
             </div>
 
             <div className="box-container">
-                <div className="education">
+                <div data-aos="fade-right" className="education">
                     <div className="experience-item">
                         <div className="icon-block">
                             <FontAwesomeIcon icon={faGraduationCap} />
@@ -75,7 +75,7 @@ function Qualification() {
                     </div>
                 </div>
 
-                <div className="experience">
+                <div data-aos="fade-left" className="experience">
                     <div className="experience-item">
                         <div className="icon-block">
                             <FontAwesomeIcon icon={faBriefcase} />
